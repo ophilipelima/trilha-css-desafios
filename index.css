@@ -5,11 +5,13 @@
     padding: 0;
 }
 body{
-    height: 2491px;
+    
     background-color: black;
     color: white;
     font-family: "Raleway", sans-serif;
 }
+
+/* HEADER */
 .banner{
     background-image: url(assets/images/banner.png);
     margin-top: 56px;
@@ -51,5 +53,94 @@ button{
     font-weight: 900;
     line-height: 18.78px;
     letter-spacing: 0.21em;
-    margin-top: 115px;
+}
+
+/* MAIN */
+
+#course-content{
+    text-align: center;
+    height: 460px;
+}
+
+#course-content h2{
+    color:  #33A8DB;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 32px;
+}
+
+#course-content .modules-list .module {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #33A8DB;
+    border-radius: 54px;
+    background-color: #252525;
+    padding: 16px;
+    margin: 0 auto 24px;
+    width: 530px;
+    text-align: center;
+}
+
+#course-content .modules-list .module span{
+    color: #33A8DB;
+}
+#course-content p{
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+#transform-world{
+    background-image: url(assets/images/woman-code.png);
+    height: 365px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    border-top: 50px solid transparent;
+    border-left: 100px solid transparent;
+}
+
+#transform-world p{
+    color: white;
+    font-weight: 900;
+    font-size: 2.5rem;
+    text-transform: lowercase;
+    text-shadow: 3px 2px #33A8DB;
+    max-width: 250px;
+}
+
+#professional-challenges{
+    text-align: center;
+}
+
+#professional-challenges h2{
+    color:  #33A8DB;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 60px;
+}
+
+#professional-challenges img{
+    margin: 32px 0;
+}
+
+#professional-challenges p {
+    margin-bottom: 50px;
+}
+
+/* FOOTER */
+
+footer{
+    padding: 60px 0;
+    text-align: center;
+    background-image: linear-gradient(rgba(50, 168, 219, .0), rgba(50, 168, 219, .2));
+    border-top: 1px solid #33A8DB80;
+}
+
+footer a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #33A8DB;
 }
